@@ -1,0 +1,264 @@
+/* @media (min-width:1025px) and (max-width:1400px) {
+    section #content p {
+        font-size: 30px;
+    }
+} */
+
+@media (min-width:993px) and (max-width:1024px) {
+
+    #my-login {
+        padding: 15px 0;
+    }
+
+    footer #my-footer p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:912px) and (max-width:1024px) {
+    #content p {
+        font-size: 45px;
+    }
+    #content h1 {
+        font-size: 85px;
+        line-height: 1;
+    }
+        #content button {
+            margin-top: 25px;
+            font-size: 25px;
+        }
+}
+
+@media (min-width:640px) and (max-width:992px) {
+    #my-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 50px;
+    }
+
+    #my-login #img {
+        width: 100%;
+    }
+    #my-login #img img {
+        width: 100%;
+        height: 350px;
+    }
+
+    #my-login #form {
+        margin-top: 40px;
+        width: 100%;
+    }
+    #my-login #register {
+        font-size: 20px;
+    }
+
+    footer #my-footer  {
+        display: flex;
+        flex-direction: column;
+    }
+    footer #my-footer span  {
+        display: none;
+    }
+
+    footer #my-links {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:640px) and (max-width:767px){
+    #box-watch #card {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    #box-watch #card img {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #buyer-protection h1 {
+        font-size: 42px;
+    }
+    #buyer-protection p {
+        font-size: 14px;
+    }
+
+    #buyer-protection #buyer-box{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 30px;
+    }
+
+    #buyer-box #content-box{
+        height: 650px;
+        width: 100%;
+        padding-top: 35px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 6px;
+    }
+    #buyer-box #content-box ul {
+        margin-top: 10px;
+        font-size: 23px;
+    }
+    #buyer-box #img{
+        width: 100%;
+    }
+    #buyer-box #img img{
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 0;
+    }
+
+    #buyer-protection #content-box h1 {
+        font-size: 34px;
+    }
+    #buyer-protection #content-box button {
+        margin-top: 15px;
+        padding: 15px 100px;
+    }
+    #straps-watch h2 {
+        font-size: 35px;
+    } 
+    #straps-watch p {
+        padding: 0 40px;
+    } 
+}
+
+@media (min-width:412px) and (max-width:639px) {
+    #my-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 30px;
+    }
+
+    #my-login #img {
+        width: 100%;
+    }
+    #my-login #img img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #my-login #form {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #my-login #register {
+        font-size: 12px;
+    }
+
+    #my-login #form h1 {
+        font-size: 35px;
+    }
+
+    footer #my-footer  {
+        display: flex;
+        flex-direction: column;
+    }
+    footer #my-footer span  {
+        display: none;
+    }
+
+    footer #my-footer p  {
+        font-size: 18px;
+    }
+
+    footer #my-links {
+        margin-top: 15px;
+    }
+
+    footer #my-links li {
+        font-size: 18px;
+    }
+
+    #content {
+        padding: 0 10px;
+        position: absolute;
+        top:145px
+    }
+    #content p {
+       font-size: 19px; 
+    }
+    #content h1 {
+       font-size: 42px; 
+       line-height: 1;
+    }
+    #content button {
+        margin: 10px 0;
+        padding: 8px 10px;
+       font-size: 16px; 
+       line-height: 1;
+    }
+    #box-watch #card {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    #populare-content h1 {
+        font-size: 28px;
+    } 
+    #box-watch #card img {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    #buyer-protection h1 {
+        font-size: 30px;
+    }
+    #buyer-protection p {
+        font-size: 10px;
+    }
+
+    #buyer-protection #buyer-box{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 30px;
+    }
+
+    #buyer-box #content-box{
+        height: fit-content;
+        width: 100%;
+        padding: 25px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 6px;
+    }
+    #buyer-box #img {
+        height: 480px;
+    }
+    #buyer-box #content-box ul {
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    #buyer-box #content-box ul li{
+        margin-bottom: 15px;
+    }
+    #buyer-box #img{
+        width: 100%;
+    }
+    #buyer-box #img img{
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 0;
+    }
+
+    #buyer-protection #content-box h1 {
+        font-size: 23px;
+    }
+    #buyer-protection #content-box button {
+        margin-top: -10px;
+        padding: 10px  10px;
+    }
+    #content-box #contact {
+        padding: 0 32px;
+    }
+    #straps-watch h2 {
+        font-size: 30px;
+    } 
+    #straps-watch p {
+        padding: 0 50px;
+    } 
+}
