@@ -9,7 +9,6 @@
 - ❤️ Add to Favorites (Wishlist)
 - 🛒 Shopping Cart with checkout flow
 - 🔐 Authentication (Login/Register)
-- 🧾 Strapi Admin for product & order management
 
 ## 💠 Tech Stack
 
@@ -62,20 +61,12 @@ npm install
 npm run dev
 ```
 
-### Setup Strapi Backend (in `/backend`)
-
-```bash
-cd backend
-npm install
-npm run develop
-```
-
-> Make sure your frontend is set to communicate with your backend API URL correctly using `.env`.
+> Make sure your frontend is set to communicate with your backend API URL correctly using `.env` if you're connecting to an external Strapi backend.
 
 ## 🧪 Testing
 
 - Frontend testing with React Testing Library (coming soon)
-- Backend testing with Strapi roles and permissions
+- Backend testing with Strapi roles and permissions (if integrated)
 
 ## ✨ Future Features
 
@@ -86,7 +77,7 @@ npm run develop
 
 ## 📬 Contact
 
-Built by [Your Name] — feel free to reach out on [LinkedIn](https://linkedin.com) or open an issue.
+Built by Youssef Ait-sy — feel free to reach out on [LinkedIn](https://www.linkedin.com/in/youssef-ait-sy-524426339/) or open an issue.
 
 ---
 
